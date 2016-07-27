@@ -1,0 +1,103 @@
+.team {
+	cursor: pointer;
+}
+
+.instructions {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: 15px 42px;
+	text-align: center;
+}
+
+.bold-instr {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.main-section {
+	display: flex;
+}
+
+.group-container {
+	background-color: #A20B00;
+	text-align: center;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	/*width: 50%;*/
+}
+
+#needs-width {
+	
+}
+
+.group-title {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 15rem;
+	font-weight: 100;
+	color: #FCFCFC;
+	margin: 10px;
+	
+}
+
+.group-title span {
+	font-size: 10px;
+
+}
+
+.group-container ul {
+	margin: 2.5rem;
+	width: 60%;
+}
+
+.sortable li {
+	margin: 1rem;
+	padding: 8px;
+	font-size: 1.5rem;
+	font-weight: 100;
+	text-align: left;
+	/*border: .5px solid grey;*/
+	background-color: #740000;
+	color: #FCFCFC;
+	width: 200px;
+}
+
+.populate-bracket-btn {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+	/*text-align: center;*/
+}
+
+/*.sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+.sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+.sortable li span { position: absolute; margin-left: -1.3em; }*/
+
+/*.column-section {
+	display: flex;
+	justify-content: space-around;
+	
+
+}*/
+
+@media (max-width: 750px) {
+	.group-container {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	}
+
+	.group-title {
+	font-size: 20rem;
+	
+	}
+}
+
+
+
+
+
+/*@media ()
+
+ turn columns into one long column

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app='bracketApp'>
+<head>
+	<title>2016 Women's Olympic Soccer Bracket</title>
+	
+
+	<!-- RESET -->
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/bracket.css">
+	<link rel="stylesheet" type="text/css" href="styles/groupStage.css">
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
+
+	<!-- FONTS -->
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css">
+</head>
+<body>
+
+	<nav>
+		<h1 ui-sref='home'>2016 Women's Olympic <br> Soccer Bracket</h1>
+		<ul>
+			<!-- <li class='nav' ui-sref='home'>Home</li> -->
+			<li class='nav' ui-sref='groupStage'>Group Stage</li>
+			<li class='nav' ui-sref='bracket'>Bracket</li>
+		</ul>
+	</nav>
+
+	<ui-view></ui-view>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+<!-- ANGULAR SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore.js'></script>
+
+<!-- CUSTOM SCRIPTS -->
+<script src="js/app.js"></script>
+<script src="js/services/groupSrv.js"></script>
+<script src="js/controllers/homeCtrl.js"></script>
+<script src="js/controllers/groupCtrl.js"></script>
+<script src="js/controllers/bracketCtrl.js"></script>
+<script src="js/groupDirective.js"></script>
+<script src="js/bracketDirective.js"></script>
+
+
+</body>
+</html>

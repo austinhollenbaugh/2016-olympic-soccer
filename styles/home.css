@@ -1,0 +1,30 @@
+.background {
+	background-image: url("./images/photo-files/2492609_large-Ind.jpg");
+}
+
+.main-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-image: url("./images/photo-files/2492609_large-Ind.jpg") no-repeat;
+
+}
+
+.start-button {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+	width: 100px;
+	height: 50px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+
+
+
+
+
